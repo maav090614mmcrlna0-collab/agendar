@@ -1,23 +1,55 @@
-/* ==========================================
-   PANTALLA: AGENDAR CITA
-   ========================================== */
-
-/* Estilo para iti campo a drop-down (select) */
-select {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    outline: none;
-    background-color: #fff;
-    color: #333;
+.btn-verde {
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    width: 90%;
+    box-shadow: 0 3px 6px rgba(76, 175, 80, 0.3);
+    transition: all 0.2s ease-in-out;
 }
 
-select:focus {
-    border-color: #008CBA;
+.btn-verde:hover {
+    background: linear-gradient(135deg, #45a049, #2e7d32);
+    box-shadow: 0 5px 12px rgba(76, 175, 80, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-verde:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+/* Botón Azul (Inicio / Navegación / Imprimir) */
+.btn-azul {
+    background: linear-gradient(135deg, #008CBA, #005f73);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    width: 90%;
+    box-shadow: 0 3px 6px rgba(0, 140, 186, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-azul:hover {
+    background: linear-gradient(135deg, #007399, #004d61);
+    box-shadow: 0 5px 12px rgba(0, 140, 186, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-azul:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 140, 186, 0.3);
+}
 }
